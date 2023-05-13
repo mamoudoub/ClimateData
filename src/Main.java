@@ -6,6 +6,8 @@ class Main {
   static Scanner scnr = new Scanner(System.in);
 
   public static void main(String[] args) throws IOException {
+		Simplecalculator cal = new Simplecalculator();
+//		System.out.println(" 2 + 3 = " + cal.add(2, 3));
     ClimateZone zone = new ClimateZone();
 
     int menuChoice = 0;
